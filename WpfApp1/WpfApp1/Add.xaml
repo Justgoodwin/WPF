@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.Add1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Add" Height="182.776" Width="314.139">
+    <Grid Margin="0,0,408,251">
+        <TextBox x:Name="TextBoxName" FontSize="24" HorizontalAlignment="Left" Height="30" Margin="11,56,-139,-86" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <ComboBox HorizontalAlignment="Left" Height="100" Margin="50,51,-50,-151" VerticalAlignment="Top" Width="0"/>
+        <Label Content="Фамилия сотрудника" HorizontalAlignment="Left" Height="28" Margin="11,23,-139,-51" VerticalAlignment="Top" Width="128"/>
+        <Label Content="Департамент" HorizontalAlignment="Left" Height="28" Margin="144,23,-272,-51" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="TextBoxDepartment" FontSize="24" HorizontalAlignment="Left" Height="30" Margin="144,56,-296,-86" TextWrapping="Wrap" VerticalAlignment="Top" Width="152"/>
+        <Button x:Name="OkeyButton" Content="Okey" HorizontalAlignment="Left" Height="39" Margin="96,102,-202,-141" VerticalAlignment="Top" Width="106" Click="OkeyButton_Click"></Button>
+
+    </Grid>
+</Window>
